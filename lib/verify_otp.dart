@@ -201,19 +201,6 @@ class _OtpBoxState extends State<OtpBox> {
   }
 }
 
-class NextPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Next Page'),
-      ),
-      body: Center(
-        child: Text('Welcome to the next page!'),
-      ),
-    );
-  }
-}
 
 void main() {
   runApp(MaterialApp(
